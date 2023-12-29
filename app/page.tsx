@@ -29,7 +29,7 @@ export default function Home() {
           ]}
           speed={50}
           style={{
-            fontSize: "3em",
+            fontSize: "2vw",
             whiteSpace: "pre-line",
             display: "block",
           }}
