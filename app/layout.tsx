@@ -1,4 +1,5 @@
 import Header from "@/components/Header";
+import { ThemeProvider } from "@/components/theme-provider";
 import { cn } from "@/lib/utils";
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
@@ -18,8 +19,15 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <Header />
-      <body className={cn(inter.className, "bg-black")}>{children}</body>
+      <ThemeProvider
+        attribute="class"
+        defaultTheme="dark"
+        enableSystem
+        disableTransitionOnChange
+      >
+        <Header />
+        <body className={cn(inter.className, "bg-background")}>{children}</body>
+      </ThemeProvider>
     </html>
   );
 }
