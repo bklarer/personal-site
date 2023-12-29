@@ -4,8 +4,8 @@ import { Icons } from "./Icons";
 
 const Header = () => {
   return (
-    <header className="fixed top-0 z-40 w-full px-10 py-3">
-      <div className="flex items-center text-xl font-extrabold">
+    <header className="fixed top-0 z-40 w-full px-5 md:px-10 py-3">
+      <div className="hidden items-center text-xl font-extrabold md:flex">
         <div className="flex-1">
           <ul className="flex justify-between ">
             <li>
@@ -30,6 +30,19 @@ const Header = () => {
             Github
             <Icons.github />
           </div>
+        </div>
+      </div>
+      <div className="flex md:hidden items-center justify-between">
+        <div className="flex items-center gap-8">
+          <div className="flex gap-2">
+            Github
+            <Icons.github />
+          </div>
+        </div>
+        <h1 className="font-extrabold">Benjamin Klarer</h1>
+        <div className="flex gap-2 items-center">
+          <ModeToggle />
+          <Icons.menu />
         </div>
       </div>
     </header>

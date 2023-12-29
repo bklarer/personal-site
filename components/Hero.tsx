@@ -2,22 +2,24 @@ import React from "react";
 
 interface HeroProps {
   children?: React.ReactNode;
-  title: string[];
+  title?: string[];
   split?: boolean;
 }
 
 const Hero = ({ children, title, split }: HeroProps) => {
   return split ? (
-    <div className="h-[90vh] w-full mt-16px-10">
+    <div className="h-[90vh] w-full mt-[100px] md:mt-16 px-10">
       <div className="h-full flex justify-center w-full gap-20">
-        <div className="flex-1 grid items-center text-[5vw] text-right">
-          <ul>
-            {title.map((item, index) => {
-              return <li key={index}>{item}</li>;
-            })}
-          </ul>
-        </div>
-        <div className="flex-1 grid items-center">{children}</div>
+        {title && (
+          <div className="flex-1 md:grid items-center text-[5vw] text-right hidden">
+            <ul>
+              {title.map((item, index) => {
+                return <li key={index}>{item}</li>;
+              })}
+            </ul>
+          </div>
+        )}
+        <div className="md:flex-1 md:grid md:items-center">{children}</div>
       </div>
     </div>
   ) : (

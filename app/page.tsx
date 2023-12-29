@@ -9,6 +9,7 @@ export default function Home() {
     <main className="flex min-h-screen flex-col items-center justify-between">
       <Hero title={["BENJAMIN", "KLARER"]} split={true}>
         <TypeAnimation
+          className="mx-auto md:mx-0 w-fit md:text-[3vw] text-[48px] whitespace-pre-line md:block"
           sequence={[
             1000,
             "JavaScript",
@@ -28,11 +29,6 @@ export default function Home() {
             "JavaScript\nTypeScript\nReact.js\nNext.js\nRuby\nRails\nMaterial UI\nTailwind CSS",
           ]}
           speed={50}
-          style={{
-            fontSize: "2vw",
-            whiteSpace: "pre-line",
-            display: "block",
-          }}
           repeat={0}
         />
       </Hero>
