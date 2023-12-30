@@ -19,12 +19,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <ThemeProvider
-        attribute="class"
-        defaultTheme="dark"
-        enableSystem
-        disableTransitionOnChange
-      >
+      <ThemeProvider attribute="class" defaultTheme="dark">
         <Header />
         <body className={cn(inter.className, "bg-background")}>{children}</body>
       </ThemeProvider>
