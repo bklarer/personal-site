@@ -1,7 +1,6 @@
 import AboutCard from "@/components/AboutCard";
 import Hero from "@/components/Hero";
 import { Icons } from "@/components/Icons";
-import Timeline from "@/components/Timeline";
 
 const About = () => {
   return (
@@ -14,7 +13,6 @@ const About = () => {
         />
       </Hero>
       <AboutCard />
-      <Timeline />
     </div>
   );
 };

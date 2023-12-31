@@ -67,9 +67,9 @@ export default function MobileMenu() {
             <Link
               onClick={handleClick}
               className="hover:text-gray-500 duration-500"
-              href="/resume"
+              href="/experience"
             >
-              RESUME
+              EXPERIENCE
             </Link>
           </li>
         </ul>
