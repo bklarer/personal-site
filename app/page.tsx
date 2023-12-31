@@ -6,7 +6,7 @@ import { TypeAnimation } from "react-type-animation";
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between">
+    <div>
       <Hero title={["BENJAMIN", "KLARER"]} split={true}>
         <TypeAnimation
           className="mx-auto md:mx-0 w-fit md:text-[3vw] text-[48px] whitespace-pre-line md:block"
@@ -32,6 +32,6 @@ export default function Home() {
           repeat={0}
         />
       </Hero>
-    </main>
+    </div>
   );
 }

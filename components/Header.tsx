@@ -45,7 +45,7 @@ const Header = () => {
             <Icons.github />
           </Button>
         </div>
-        <h1 className="font-extrabold">Benjamin Klarer</h1>
+        <h1 className="font-extrabold text-center">Benjamin Klarer</h1>
         <div className="flex gap-2 items-center">
           <ModeToggle />
           <MobileMenu />

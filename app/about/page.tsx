@@ -1,11 +1,11 @@
-
+import Hero from "@/components/Hero";
 
 const About = () => {
-
-
-    <div></div>
-
-
-}
+  return (
+    <div>
+      <Hero title={["ABOUT"]}></Hero>
+    </div>
+  );
+};
 
 export default About;

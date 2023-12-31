@@ -1,11 +1,11 @@
-
+import Hero from "@/components/Hero";
 
 const Resume = () => {
-
-
-    <div></div>
-
-
-}
+  return (
+    <div>
+      <Hero title={["RESUME"]}></Hero>
+    </div>
+  );
+};
 
 export default Resume;

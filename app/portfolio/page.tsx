@@ -1,11 +1,11 @@
-
+import Hero from "@/components/Hero";
 
 const Portfolio = () => {
-
-
-    <div></div>
-
-
-}
+  return (
+    <div>
+      <Hero title={["PORTFOLIO"]}></Hero>
+    </div>
+  );
+};
 
 export default Portfolio;

@@ -6,25 +6,35 @@ interface HeroProps {
   split?: boolean;
 }
 
-const Hero = ({ children, title, split }: HeroProps) => {
+// create string with line breaks
+
+const titleString = (title: string[]) => {
+  let string = "";
+  title.forEach((item, index) => {
+    string += item;
+    if (index !== title.length - 1) {
+      string += "\n";
+    }
+  });
+  return string;
+};
+
+const Hero = ({ children, title, split = false }: HeroProps) => {
   return split ? (
-    <div className="h-[90vh] w-full mt-[100px] md:mt-16 px-10">
+    <div className="h-[80vh] w-full">
       <div className="h-full flex justify-center w-full gap-20">
         {title && (
-          <div className="flex-1 md:grid items-center text-[5vw] text-right hidden">
-            <ul>
-              {title.map((item, index) => {
-                return <li key={index}>{item}</li>;
-              })}
-            </ul>
+          <div className="flex-1 md:grid items-center text-right hidden">
+            <h1 className="text-[5vw]">{titleString(title)}</h1>
           </div>
         )}
         <div className="md:flex-1 md:grid md:items-center">{children}</div>
       </div>
     </div>
   ) : (
-    <div className="h-[90vh] w-full mt-16 px-10">
-      <div className="h-full grid place-items-center w-full gap-20">
+    <div className="h-[50vh] w-full">
+      <div className="h-full flex flex-col justify-center items-center w-full">
+        {title && <h1 className="text-[5vw]">{titleString(title)}</h1>}
         {children}
       </div>
     </div>
