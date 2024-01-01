@@ -5,6 +5,8 @@ import Image from "next/image";
 import { TypeAnimation } from "react-type-animation";
 
 export default function Home() {
+  // TODO: Clamp type text
+
   return (
     <div>
       <Hero title={["BENJAMIN", "KLARER"]} split={true}>

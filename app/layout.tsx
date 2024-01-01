@@ -24,7 +24,7 @@ export default function RootLayout({
         <body
           className={cn(
             inter.className,
-            "bg-background mt-[100px] md:mt-16 px-10 max-w-[1200px] mx-auto"
+            "bg-background mt-[100px] md:mt-16 px-5 md:px-10 max-w-[1800px] mx-auto"
           )}
         >
           {children}

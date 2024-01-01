@@ -23,7 +23,9 @@ const Hero = ({ children, title, split = false }: HeroProps) => {
       <div className="h-full flex justify-center w-full gap-20">
         {title && (
           <div className="flex-1 md:grid items-center text-right hidden">
-            <h1 className="text-[5vw] whitespace-pre">{titleString(title)}</h1>
+            <h1 className="responsive-title whitespace-pre">
+              {titleString(title)}
+            </h1>
           </div>
         )}
         <div className="md:flex-1 md:grid md:items-center">{children}</div>
@@ -32,7 +34,7 @@ const Hero = ({ children, title, split = false }: HeroProps) => {
   ) : (
     <div className="h-[50vh] w-full">
       <div className="h-full flex flex-col justify-center items-center w-full">
-        {title && <h1 className="text-[5vw]">{titleString(title)}</h1>}
+        {title && <h1 className="responsive-title">{titleString(title)}</h1>}
         {children}
       </div>
     </div>

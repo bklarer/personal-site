@@ -12,8 +12,8 @@ const Header = () => {
   };
 
   return (
-    <nav className="fixed top-0 z-40 w-full px-5 md:px-10 py-3">
-      <div className="max-w-[1200px] mx-auto">
+    <nav className="fixed top-0 z-40 w-full">
+      <div className="max-w-[1800px] mx-auto px-5 md:px-10 py-3">
         <div className="hidden items-center text-xl font-extrabold md:flex">
           <div className="flex-1">
             <ul className="flex justify-between">
