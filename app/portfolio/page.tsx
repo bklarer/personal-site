@@ -1,10 +1,9 @@
 import Hero from "@/components/Hero";
 import PortfolioGrid from "@/components/PortfolioGrid";
 
-const Portfolio = () => {
+const Portfolio = ({}) => {
   return (
-    <div>
-      <Hero title={["PORTFOLIO"]}></Hero>
+    <div className="mt-[50px] md:mt-[150px]">
       <PortfolioGrid />
     </div>
   );
