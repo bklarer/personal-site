@@ -15,7 +15,7 @@ const Header = () => {
     <nav className="fixed top-0 z-40 w-full">
       <div className="max-w-[1800px] mx-auto px-5 md:px-10 py-3">
         <div className="hidden items-center text-xl font-extrabold md:flex">
-          <div className="flex-1">
+          <div className="flex-2">
             <ul className="flex justify-between">
               <li>
                 <Link href="/">HOME</Link>

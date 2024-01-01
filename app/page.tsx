@@ -11,7 +11,7 @@ export default function Home() {
     <div>
       <Hero title={["BENJAMIN", "KLARER"]} split={true}>
         <TypeAnimation
-          className="mx-auto md:mx-0 w-fit md:text-[3vw] text-[48px] whitespace-pre-line md:block"
+          className="mx-auto md:mx-0 w-fit responsive-typer whitespace-pre-line md:block"
           sequence={[
             1000,
             "JavaScript",
