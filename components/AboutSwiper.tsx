@@ -30,7 +30,7 @@ const AboutSwiper = () => {
         </div>
       </SwiperSlide>
       <SwiperSlide>
-        <div className="relativeh-[60vh] lg:h-[80vh] overflow-hidden">
+        <div className="relative h-[60vh] lg:h-[80vh] overflow-hidden">
           <Image
             objectFit="cover"
             alt="Family Photo"

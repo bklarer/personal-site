@@ -1,4 +1,3 @@
-import Hero from "@/components/Hero";
 import PortfolioGrid from "@/components/PortfolioGrid";
 
 const Portfolio = ({}) => {

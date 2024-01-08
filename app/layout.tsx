@@ -16,20 +16,24 @@ export default function RootLayout({
   children,
 }: {
   children: React.ReactNode;
+  modal?: React.ReactNode;
+  sheet?: React.ReactNode;
 }) {
   return (
-    <html lang="en" suppressHydrationWarning>
-      <ThemeProvider attribute="class" defaultTheme="dark">
-        <Header />
-        <body
-          className={cn(
-            inter.className,
-            "bg-background mt-[100px] md:mt-16 px-5 md:px-10 max-w-[1800px] mx-auto"
-          )}
-        >
+    <html lang="en">
+      <head />
+
+      <body
+        className={cn(
+          inter.className,
+          "bg-background mt-[100px] md:mt-16 px-5 md:px-10 max-w-[1800px] mx-auto"
+        )}
+      >
+        <ThemeProvider attribute="class" defaultTheme="dark">
+          <Header />
           {children}
-        </body>
-      </ThemeProvider>
+        </ThemeProvider>
+      </body>
     </html>
   );
 }
