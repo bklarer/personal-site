@@ -5,10 +5,8 @@ export default function Home() {
   // TODO: Clamp type text
 
   return (
-    <div>
-      <Hero title={["BENJAMIN", "KLARER"]} split={true}>
-        <HomeAnimation />
-      </Hero>
-    </div>
+    <Hero title={["BENJAMIN", "KLARER"]} split={true}>
+      <HomeAnimation />
+    </Hero>
   );
 }

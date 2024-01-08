@@ -12,9 +12,9 @@ const Header = () => {
   };
 
   return (
-    <header>
-      <nav className="fixed top-0 z-40 w-full">
-        <div className="max-w-[1800px] mx-auto px-5 md:px-10 py-3">
+    <header className="fixed left-0 top-0 z-40 w-full px-5 md:px-10">
+      <nav>
+        <div className="py-3">
           <div className="hidden items-center text-xl font-extrabold md:flex">
             <div className="flex-2">
               <ul className="flex justify-between">
@@ -32,7 +32,7 @@ const Header = () => {
                 </li>
               </ul>
             </div>
-            <div className="flex flex-1 ml-auto items-center justify-end gap-4">
+            <div className="flex flex-1 items-center justify-end gap-4">
               <ModeToggle />
               <Button
                 onClick={openGithub}
