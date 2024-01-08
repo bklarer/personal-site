@@ -64,6 +64,7 @@
     --input: 217.2 32.6% 17.5%;
     --ring: 212.7 26.8% 83.9%;
   }
+
 }
  
 @layer base {
@@ -73,4 +74,21 @@
   body {
     @apply bg-background text-foreground;
   }
+  
+  .responsive-title {
+    font-size: clamp(48px, 5vw, 120px);
+  }
+
+  .responsive-typer {
+    font-size: clamp(48px, 3vw, 80px)
+  }
+
+  .responsive-paragraph {
+    font-size: clamp(18px, 1.2vw, 40px)
+  }
+
+  .flex-2 {
+    flex: 2;
+  }
 }
+
