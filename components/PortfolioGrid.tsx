@@ -32,7 +32,7 @@ const portfolio = [
     username: "testing",
     password: "test",
     notes:
-      "I created an event app during my attendance at Flatiron School to create events and track attendance. Through this app I learned global state management with Redux and used Bootstrap for some simple styling. This was the first app that I combined authorization with reactjs and rails while isolation actions and events to a uer. When loading this site, keep in mind the server takes a minute to spin up and may not come up right away on the free plan.",
+      "I created an event app during my attendance at Flatiron School to create events and track attendance. Through this app I learned global state management with Redux and used Bootstrap for some simple styling. This was the first app that I combined authorization with reactjs and rails while isolating actions and events to a user. When loading this site, keep in mind the server takes a minute to spin up and may not come up right away on the free plan.",
     alt: "Event App Photo",
     website: "https://event-app-26zc.onrender.com/",
     github: "https://github.com/bklarer/event-app",
