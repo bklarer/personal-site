@@ -32,8 +32,8 @@ const Hero = ({ children, title, split = false }: HeroProps) => {
       </div>
     </div>
   ) : (
-    <div className="h-[20vh] w-full">
-      <div className="h-full flex flex-col justify-center items-center w-full">
+    <div className="h-[20vh] w-full lg:mt-[150px] mt-[50px]">
+      <div className="h-full flex flex-col items-center w-full">
         {title && <h1 className="responsive-title">{titleString(title)}</h1>}
       </div>
     </div>

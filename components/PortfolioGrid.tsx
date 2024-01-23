@@ -41,7 +41,7 @@ const portfolio = [
 
 const PortfolioGrid = () => {
   return (
-    <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3 grid-flow-row">
+    <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3 grid-flow-row lg:mt-[150px] mt-[50px]">
       {portfolio.map((project, index) => {
         return (
           <PortfolioCard
