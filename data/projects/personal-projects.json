@@ -1,0 +1,51 @@
+[
+  {
+    "title": "Personal Site (this site)",
+    "description": "Personal site to showcase my work",
+    "image": "/personal-site.gif",
+    "username": null,
+    "password": null,
+    "notes": "I created this site to showcase a little about myself and share my journey into software engineering. I created a minimalistic design to show small pieces of what I have learned from my professional experience in programming. I used Next.js, Tailwind CSS, and TypeScript to build this site and deployed it to vercel.",
+    "alt": "Personal Site Photo",
+    "website": "https://benjaminklarer.com",
+    "github": "https://github.com/bklarer/personal-site",
+    "privateRepo": false
+  },
+  {
+    "title": "Draw Mate (WIP)",
+    "description": "App for Drawing Names for Gift Exchange",
+    "image": "/draw-mate.png",
+    "username": null,
+    "password": null,
+    "notes": "The app is a work in progress and is being built to help people draw names for gift exchanges. I am using Next.js, Shadcn, Tailwind CSS, and TypeScript to build the frontend. The backend is being built with Rails and PostgreSQL. I am using Render to deploy the backend and Vercel to deploy the frontend. The project is still in the early stages but most of the backend is done, and I'm starting on the frontend.",
+    "alt": "Draw Mate Site Photo",
+    "website": "https://draw-mate.vercel.app/",
+    "github": "https://github.com/bklarer/draw-mate-frontend",
+    "github2": "https://github.com/bklarer/draw-mate-api",
+    "privateRepo": false
+  },
+  {
+    "title": "Firm Management App",
+    "description": "Schedule Tasks within a firm",
+    "image": "/firm-management.png",
+    "username": "testing",
+    "password": "test",
+    "notes": "For my capstone project at Flatiron School, I developed an internal management application aimed at improving task assignment processes within an organization. This project afforded me the opportunity to acquire new skills in Git branching, SCSS, Cloudinary, and Active Mailer, while also enhancing my understanding of Redux, React.js, PostgreSQL, and Rails. When loading this site, keep in mind the server takes a minute to spin up and may not come up right away on the free plan.",
+    "alt": "Firm Management App Photo",
+    "website": "https://firm-management.onrender.com/",
+    "github": "https://github.com/bklarer/firm-management",
+    "privateRepo": false
+  },
+  {
+    "title": "Event App",
+    "description": "App to schedule events and see who is going",
+    "image": "/event-app.png",
+    "username": "testing",
+    "password": "test",
+    "notes": "I created an event app during my attendance at Flatiron School to create events and track attendance. Through this app I learned global state management with Redux and used Bootstrap for some simple styling. This was the first app that I combined authorization with reactjs and rails while isolating actions and events to a user. When loading this site, keep in mind the server takes a minute to spin up and may not come up right away on the free plan.",
+    "alt": "Event App Photo",
+    "website": "https://event-app-26zc.onrender.com/",
+    "github": "https://github.com/bklarer/event-app",
+    "privateRepo": false
+  }
+]

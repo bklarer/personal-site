@@ -1,0 +1,51 @@
+[
+  {
+    "title": "Police Dispatch App",
+    "description": "Manage Scheduling Private Jobs for Officers",
+    "image": "/police-dispatch.png",
+    "username": null,
+    "password": null,
+    "notes": "I came into this project mid-way. The project uses a Nextjs frontend with MaterialUi and Tyepscript. I've mainly worked on the frontend for this and have contributed to discussions on the backend (Nestjs) for this. Most notable features I've built are a report generator that receives data from the backend to build either a normal table or table that has nested data. Also, I built out a messaging form that allows for emails, push notifications, and sms among many other features and components. I've also done a little updating on it's mobile app through React Native.",
+    "alt": "Site Example",
+    "website": "https://firm-management.onrender.com/",
+    "github": "https://github.com/bklarer/firm-management",
+    "privateRepo": true
+  },
+  {
+    "title": "Video Interviewing App",
+    "description": "App for Outsourcing Video Interviews",
+    "image": "/video-interviewing.png",
+    "username": null,
+    "password": null,
+    "notes": "This app uses a Nextjs frontend with TypeScript, Tailwind CSS and Shadcn. I scaffolded a lot of the app layouts, cards and video controls on the frontend for this app while hooking up some of the data and forms.",
+    "alt": "Site Example",
+    "website": "https://draw-mate.vercel.app/",
+    "github": "https://github.com/bklarer/draw-mate-frontend",
+    "github2": "https://github.com/bklarer/draw-mate-api",
+    "privateRepo": true
+  },
+  {
+    "title": "Health Commerce Sites",
+    "description": "Big Commerce Custom Sites",
+    "image": "/health-commerce.png",
+    "username": null,
+    "password": null,
+    "notes": "I've coded multiple sites by using their templates as a starting point and also with an inner Reactjs app. I used html, css, sass, and javascript working on landing pages, profile pages, carts, category pages and product pages.",
+    "alt": "Site Example",
+    "website": "https://event-app-26zc.onrender.com/",
+    "github": "https://github.com/bklarer/event-app",
+    "privateRepo": true
+  },
+  {
+    "title": "College Site for Economic Development",
+    "description": "Site For Promoting Jobs and Career Development",
+    "image": "/college-site.png",
+    "username": null,
+    "password": null,
+    "notes": "This is a site I didn't build but add features and pages to. It's built with Nextjs, TypeScript, and MaterialUi. I've added models on the Strapi backend for a page generator and also coded a plugin to receive form data from the frontend and send it to Hubspot and Sendgrid. On the frontend, I've made some card components and a page generator for job data.",
+    "alt": "Site Example",
+    "website": "",
+    "github": "",
+    "privateRepo": true
+  }
+]

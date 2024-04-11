@@ -25,14 +25,11 @@ export default function RootLayout({
   sheet?: React.ReactNode;
 }) {
   return (
-    <html lang="en">
+    <html lang="en" className="bg-background">
       <head />
 
       <body
-        className={cn(
-          inter.className,
-          "bg-background mt-[100px] md:mt-16 px-5 md:px-10"
-        )}
+        className={cn(inter.className, "mt-[100px] md:mt-16 px-5 md:px-10")}
       >
         <ThemeProvider attribute="class" defaultTheme="dark">
           <Header />
