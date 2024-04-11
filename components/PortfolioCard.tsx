@@ -47,7 +47,9 @@ const PortfolioCard = ({
       {" "}
       <CardHeader className="text-center">
         <CardTitle className="uppercase">{title}</CardTitle>
-        <CardDescription>{description}</CardDescription>{" "}
+        <CardDescription className="capitalize">
+          {description}
+        </CardDescription>{" "}
       </CardHeader>
       <CardContent>
         <div className="relative aspect-[4/3]">
