@@ -1,4 +1,5 @@
 import PortfolioCard from "@/components/PortfolioCard";
+import commercialPortfolio from "../data/projects/commercial-projects.json";
 import personalPortfolio from "../data/projects/personal-projects.json";
 
 //TODO: Optimize photos and change format
@@ -8,7 +9,7 @@ const PortfolioGrid = () => {
     <div className="lg:mt-[150px] mt-[50px]">
       <h2 className="text-3xl text-center">Commercial Projects</h2>
       <div className="grid gap-4 sm:grid-cols-2 2xl:grid-cols-4 grid-flow-row mt-10">
-        {personalPortfolio.map((project, index) => {
+        {commercialPortfolio.map((project, index) => {
           return (
             <PortfolioCard
               key={index}
