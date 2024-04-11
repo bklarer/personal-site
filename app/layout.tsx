@@ -28,12 +28,12 @@ export default function RootLayout({
     <html lang="en" className="bg-background">
       <head />
 
-      <body
-        className={cn(inter.className, "mt-[100px] md:mt-16 px-5 md:px-10")}
-      >
+      <body className={cn(inter.className)}>
         <ThemeProvider attribute="class" defaultTheme="dark">
-          <Header />
-          {children}
+          <div className="mt-[100px] md:mt-16 px-5 md:px-10">
+            <Header />
+            {children}
+          </div>
         </ThemeProvider>
       </body>
     </html>
