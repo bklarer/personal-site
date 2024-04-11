@@ -79,7 +79,11 @@ const PortfolioCard = ({
                 Github {github2 && "1"}
               </Button>
               {github2 && (
-                <Button variant="secondary" className="w-full">
+                <Button
+                  onClick={() => openWindow(github2)}
+                  variant="secondary"
+                  className="w-full"
+                >
                   Github 2
                 </Button>
               )}
