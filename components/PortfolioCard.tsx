@@ -21,6 +21,8 @@ interface PortfolioProps {
   alt: string;
   website: string;
   github: string;
+  github2?: string;
+  privateRepo?: boolean;
 }
 
 const PortfolioCard = ({
@@ -33,6 +35,8 @@ const PortfolioCard = ({
   alt,
   website,
   github,
+  github2,
+  privateRepo = false,
 }: PortfolioProps) => {
   const openWindow = (link: string) => {
     window.open(link, "_blank");
@@ -57,19 +61,31 @@ const PortfolioCard = ({
       </CardContent>
       <CardFooter className="mt-auto">
         {" "}
-        <div className="flex gap-2 w-full">
-          {" "}
-          <Button onClick={() => openWindow(website)} className="flex-1">
-            Website
-          </Button>{" "}
-          <Button
-            onClick={() => openWindow(github)}
-            variant="secondary"
-            className="flex-1"
-          >
-            Github
-          </Button>
-        </div>
+        {privateRepo ? (
+          <div>Private</div>
+        ) : (
+          <div className="flex gap-2 w-full">
+            <div className="flex-1">
+              <Button className="w-full" onClick={() => openWindow(website)}>
+                Website
+              </Button>
+            </div>
+            <div className="flex flex-1 gap-2">
+              <Button
+                className="w-full"
+                onClick={() => openWindow(github)}
+                variant="secondary"
+              >
+                Github {github2 && "1"}
+              </Button>
+              {github2 && (
+                <Button variant="secondary" className="w-full">
+                  Github 2
+                </Button>
+              )}
+            </div>
+          </div>
+        )}
       </CardFooter>
     </Card>
   );
