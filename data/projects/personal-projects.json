@@ -9,6 +9,7 @@
     "alt": "Personal Site Photo",
     "website": "https://benjaminklarer.com",
     "github": "https://github.com/bklarer/personal-site",
+    "github2": "",
     "privateRepo": false
   },
   {
@@ -34,6 +35,7 @@
     "alt": "Firm Management App Photo",
     "website": "https://firm-management.onrender.com/",
     "github": "https://github.com/bklarer/firm-management",
+    "github2": "",
     "privateRepo": false
   },
   {
@@ -46,6 +48,7 @@
     "alt": "Event App Photo",
     "website": "https://event-app-26zc.onrender.com/",
     "github": "https://github.com/bklarer/event-app",
+    "github2": "",
     "privateRepo": false
   }
 ]
