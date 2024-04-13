@@ -5,10 +5,10 @@
     "image": "/police-dispatch.png",
     "username": null,
     "password": null,
-    "notes": "I came into this project mid-way. The project uses a Nextjs frontend with MaterialUi and Tyepscript. I've mainly worked on the frontend for this and have contributed to discussions on the backend (Nestjs) for this. Most notable features I've built are a report generator that receives data from the backend to build either a normal table or table that has nested data. Also, I built out a messaging form that allows for emails, push notifications, and sms among many other features and components. I've also done a little updating on it's mobile app through React Native.",
+    "notes": "I joined this project midway through its development. The project uses a NextJS frontend with Material-UI and TypeScript. I've mainly worked on the frontend and have contributed to discussions about the backend, which uses NestJS. The most notable features I've built include a report generator that receives data from the backend to build either a standard table or a table with nested data. Additionally, I developed a messaging form that supports emails, push notifications, and SMS, among many other features and components. I've also made some updates to its mobile app through React Native.",
     "alt": "Site Example",
-    "website": "https://firm-management.onrender.com/",
-    "github": "https://github.com/bklarer/firm-management",
+    "website": "",
+    "github": "",
     "privateRepo": true
   },
   {
@@ -17,11 +17,10 @@
     "image": "/video-interviewing.png",
     "username": null,
     "password": null,
-    "notes": "This app uses a Nextjs frontend with TypeScript, Tailwind CSS and Shadcn. I scaffolded a lot of the app layouts, cards and video controls on the frontend for this app while hooking up some of the data and forms.",
+    "notes": "This app features a NextJS frontend with TypeScript, Tailwind CSS, and Shadcn. I scaffolded many of the app's layouts, cards, and video controls while also integrating some of the data and forms.",
     "alt": "Site Example",
-    "website": "https://draw-mate.vercel.app/",
-    "github": "https://github.com/bklarer/draw-mate-frontend",
-    "github2": "https://github.com/bklarer/draw-mate-api",
+    "website": "",
+    "github": "",
     "privateRepo": true
   },
   {
@@ -30,10 +29,10 @@
     "image": "/health-commerce.png",
     "username": null,
     "password": null,
-    "notes": "I've coded multiple sites by using their templates as a starting point and also with an inner Reactjs app. I used html, css, sass, and javascript working on landing pages, profile pages, carts, category pages and product pages.",
+    "notes": "I've coded multiple sites using their templates as a starting point, as well as incorporating an inner ReactJS app. I used HTML, CSS, SASS, and JavaScript while working on landing pages, profile pages, carts, category pages, and product pages.",
     "alt": "Site Example",
-    "website": "https://event-app-26zc.onrender.com/",
-    "github": "https://github.com/bklarer/event-app",
+    "website": "",
+    "github": "",
     "privateRepo": true
   },
   {
@@ -42,7 +41,7 @@
     "image": "/college-site.png",
     "username": null,
     "password": null,
-    "notes": "This is a site I didn't build but add features and pages to. It's built with Nextjs, TypeScript, and MaterialUi. I've added models on the Strapi backend for a page generator and also coded a plugin to receive form data from the frontend and send it to Hubspot and Sendgrid. On the frontend, I've made some card components and a page generator for job data.",
+    "notes": "This is a site I didn't build but have added features and pages to. It's built with NextJS, TypeScript, and Material UI. I've added models to the Strapi backend for a page generator and also coded a plugin to receive form data from the frontend and send it to HubSpot and SendGrid. On the frontend, I've created some card components and a page generator for job data.",
     "alt": "Site Example",
     "website": "",
     "github": "",
